@@ -1,0 +1,88 @@
+body{
+    
+    font-weight: 700;
+    font-family: Roboto;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+.container{
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head{
+    font-weight: 700;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.6;
+    box-shadow: 5px 5px 30px white;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background: var(--btn-gradient, linear-gradient(45.00deg, rgba(110, 58, 255, 0.4),rgba(0, 217, 255, 0.231) 100%));
+}
+a{
+    
+    
+    padding-right: 20px;
+}
+
+.head__icon{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    display: inline;
+}
+.header-main{
+    
+    margin-left: 10vw;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    
+}
+
+h1{
+    margin-top: 35vh;
+    font-size: 50px;
+    display: inline;
+}
+h1:hover{
+    font-size: 50px;
+    transition: 2s;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+.main-text{
+    font-size: 25px;
+    padding-top: 30px;
+}
+footer{
+    height: 20vh;
+    background-color: gray;
+}
+.header-img{
+    width: 300px;
+    height: 360px;
+    margin-top: 16vh;
+    margin-right: 15vw;
+    
+    animation: box 2s infinite alternate;
+}
+@keyframes box{
+    from{
+        transform: rotate(10deg);
+    }
+    to{
+        transform: rotate(30deg);
+   }
+}
